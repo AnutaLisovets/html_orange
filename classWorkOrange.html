@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        body{
+            margin:0;
+            width:100%;
+            color:black;
+        }
+        h3{
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+        h1{
+            margin-top:0;
+            padding-top: 40px;
+        }
+        .section1{
+            background-color:#ff6825;
+            height:400px;
+            text-align:center;
+            font-weight:bold;
+        }
+        .section1 h2{
+            color:white;
+        }
+        .simple-text{
+            font-size:18px;
+        }
+        .section2{
+            width:90%;
+            margin: 0 auto;
+        }
+        .left{
+            float:left;
+            margin:0;
+            width:550px;
+            margin-right:20px;
+        }
+        .right{
+            margin-left:600px;
+            width:550px;
+        }
+        .red-block{
+            background-color:red;
+            width:80px;
+            height: 40px;
+            border-radius:15px;
+            float:right;
+            text-align:center;
+        }
+        .white-block{
+            padding: 10px;
+            font-size:20px;
+            color:white;
+        }
+        .section3{
+            width:90%;
+            margin:0 auto;
+        }
+        .section3 h3{
+            margin-top:100px;
+            text-align:center;
+        }
+        .icon{
+            width:190px;
+        }
+        .icon{
+            float:left;
+            margin-right:30px;
+        }
+        .coins{
+            float:right;
+            font-weight:bold;
+        }
+        .img-icon{
+            background-color:#ff6825;
+            border:2px solid grey;
+            border-top-right-radius: 20px;
+            height:120px;
+        }
+        .red{
+            background-color:#9a0000
+        }
+        .blue{
+            background-color:#183c8a;
+        }
+        .puple{
+            background-color:#59109e;
+        }
+        .green{
+            background-color:#18b630;
+        }
+        .lorem{
+            font-size:10px;
+        }
+        h4{
+            color:white;
+            text-align:center;
+        }
+        .yellow-text{
+            margin-top:10px;
+            margin-right:30px;
+            background-color:#ffcf00;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .section4>div{
+            float:left;
+            width: 300px;
+            margin-right:50px;
+            
+        }
+        ul{
+            padding:0;
+        }
+        li{
+            list-style-type:none;
+        }
+        .section4{
+            width:1100px;
+            margin:0 auto;
+            
+            border-top:2px solid grey;
+        }
+        .end{
+            background-color:#cccccc;
+        }
+        footer {
+            background-color: #ccc;
+            border-top: 2px solid #666;
+            height:200px;
+        }
+        .container::before,
+        .container::after {
+            content: "";
+            display: table;
+        }
+        .sectin4::before,
+        .sectin4::after {
+            content: "";
+            display: table;
+        }
+        .container::after {
+            clear: both
+        }
+        .sectin4::after{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="section1">
+        <h1>Sample Page</h1>
+        <h2>with CSS Box model</h2>
+        <p class="simple-text">for students</p>
+    </div>
+    <div class="section2">
+        <div class="left">
+            <h3>About Us</h3>
+            <div class="float-right">
+                <div class="red-block">
+                    <div class="white-block">
+                        &#9658;
+                    </div>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia placeat cum in, quibusdam ipsum voluptatibus laboriosam sunt consectetur quaerat harum a quod maiores ea. Voluptas magni quam minus ex ipsa!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi et dolor unde. Iusto quas voluptatibus earum. Impedit architecto libero, commodi ex, molestiae facilis sequi explicabo, quasi eius consectetur totam sunt.</p>
+        </div>
+        <div class="right">
+            <h3>Our mission</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p>Autem explicabo quibusdam ullam ea deleniti rem aliquam?</p>
+            <p>Molestiae hic, fugit animi cumque ratione illo facilis magni beatae tempore dolores quas aliquam!</p>
+        </div>
+    </div>
+    <div class="section3">
+        <h3>Popular Courses</h3>
+        <div class="container">
+            <div class="icon">
+                <div class="img-icon">
+                    <div class="yellow-text">TOP SALES</div>
+                    <h4>The Web Developer</h4>
+                </div>
+                <p  class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quis vel suscipit, inventore repellendus magnam quam ullam natus, molestiae veritatis voluptatum alias. Tempore eos excepturi dolor quaerat, repellat reiciendis cumque.</p>
+                <p class="coins">27.99$<p>
+            </div>
+            <div class="icon">
+                <div class="img-icon red">
+                    <div class="yellow-text">NEW!</div>
+                    <h4>JavaScript Developer</h4>
+                </div>
+                <p  class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quis vel suscipit, inventore repellendus magnam quam ullam natus, molestiae veritatis voluptatum alias. Tempore eos excepturi dolor quaerat, repellat reiciendis cumque.</p>
+                <p class="coins">29.99$<p>
+            </div>  
+            <div class="icon">
+                <div class="img-icon blue">
+                    <div class="yellow-text">MOST POPULAR</div>
+                    <h4>FrontEnd Developer</h4>
+                </div>
+                <p  class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quis vel suscipit, inventore repellendus magnam quam ullam natus, molestiae veritatis voluptatum alias. Tempore eos excepturi dolor quaerat, repellat reiciendis cumque.</p>
+                <p class="coins">39.99$<p>
+            </div>  
+            <div class="icon">
+                <div class="img-icon puple">
+                    <div class="yellow-text">SUPER SALE!</div>
+                    <h4>Modern Web Design</h4>
+                </div>
+                <p  class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quis vel suscipit, inventore repellendus magnam quam ullam natus, molestiae veritatis voluptatum alias. Tempore eos excepturi dolor quaerat, repellat reiciendis cumque.</p>
+                <p class="coins">11.99$<p>
+            </div>  
+            <div class="icon">
+                <div class="img-icon green">
+                    <div class="yellow-text">MOST POPULAR</div>
+                    <h4>CSS Complete Course</h4>
+                </div>
+                <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quis vel suscipit, inventore repellendus magnam quam ullam natus, molestiae veritatis voluptatum alias. Tempore eos excepturi dolor quaerat, repellat reiciendis cumque.</p>
+                <p class="coins">24.99$<p>
+            </div>  
+        </div>
+    </div>
+    <footer>
+        <div class="section4">
+            <div class="first">
+                <h3>Our Courses</h3>
+                <ul>
+                    <li>HTML5/CSS3</li>
+                    <li>JavaScript/jQuery.</li>
+                    <li>PHP/MySql</li>
+                    <li>CMS/SEO</li>
+                </ul>
+            </div>
+            <div class="second">
+                <h3>Our Services</h3>
+                <ul>
+                    <li>Group training</li>
+                    <li>Individual training</li>
+                    <li>Online training</li>
+                    <li>The latest techniques</li>
+                </ul>
+            </div>
+            <div class="third">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Fugit minus vitae tenetur.</li>
+                    <li>Sunt tempora ipsam facere.</li>
+                    <li>Rerum sunt suscipit officia.</li>
+                </ul>
+            </div>
+        </div>
+    <footer>
+</body>
+</html>
